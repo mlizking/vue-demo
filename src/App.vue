@@ -19,49 +19,8 @@
                 <!-- <v-toolbar-items class="hidden-sm-and-down"> -->
         <v-btn flat class="hidden-sm-and-down" to="/upload" exact>upload</v-btn>
         <v-btn flat class="hidden-sm-and-down" to="/story">story</v-btn>
-        <v-dialog v-model="dialog" max-width="500px">
-          <v-btn slot="activator" flat class="hidden-sm-and-down">login</v-btn>
-            <v-card>
-              <v-card-title>
-                <span class="headline">Login</span>
-              </v-card-title>
-              <v-container>
-                <v-text-field label="Username"></v-text-field>
-                <v-text-field label="Password" type="Password"></v-text-field>
-              </v-container>
-              <v-card-actions>
-                <v-btn flat color="green">login</v-btn>
-                <v-btn flat color="red">cancle</v-btn>
-              </v-card-actions>
-            </v-card>
-        </v-dialog>
-        <v-dialog v-model="dialog" max-width="500px">
-            <v-btn slot="activator" flat outline color="red accent-3" class="hidden-sm-and-down">signup</v-btn>
-            <v-card>
-              <v-card-title>
-                <span class="headline">Signup</span>
-              </v-card-title>
-              <v-container grid-list-md>
-                <v-layout wrap>
-                  <v-flex xs12 sm6>
-                    <v-text-field label="First name"></v-text-field>
-                  </v-flex>
-                  <v-flex xs12 sm6>
-                    <v-text-field label="Last name"></v-text-field>
-                  </v-flex>
-                  <v-flex xs12>
-                    <v-text-field label="Username"></v-text-field>
-                    <v-text-field label="Password" type="Password"></v-text-field>
-                    <v-text-field label="E-mail"></v-text-field>
-                  </v-flex>
-                </v-layout>
-              </v-container>
-              <v-card-actions>
-                <v-btn flat color="green">Signup</v-btn>
-                <v-btn flat color="red">cancle</v-btn>
-              </v-card-actions>
-            </v-card>
-          </v-dialog>
+        <v-btn flat class="hidden-sm-and-down" to="/login">login</v-btn>
+        <v-btn flat outline color="red accent-3" class="hidden-sm-and-down" to="/signup">signup</v-btn>
                  <!-- </v-toolbar-items> -->
     </v-toolbar>
 
