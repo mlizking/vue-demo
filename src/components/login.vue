@@ -6,10 +6,10 @@
     <v-flex xs12 class="text-xs-center">
       <form>
             <v-text-field
-              name="email"
-              label="Email"
-              id="email"
-              type="email"
+              name="username"
+              label="Username"
+              id="username"
+              type="username"
               required></v-text-field>
          
             <v-text-field

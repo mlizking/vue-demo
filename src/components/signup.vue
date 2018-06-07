@@ -8,10 +8,10 @@
         <v-layout column>
           <v-flex>
             <v-text-field
-              name="email"
-              label="Email"
-              id="email"
-              type="email"
+              name="username"
+              label="Username"
+              id="username"
+              type="username"
               required></v-text-field>
           </v-flex>
           <v-flex>
