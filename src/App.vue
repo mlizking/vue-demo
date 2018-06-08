@@ -4,7 +4,7 @@
       <v-menu transition="slide-x-transition" bottom right>
         <v-toolbar-side-icon slot="activator" class="hidden-md-and-up"></v-toolbar-side-icon>
         <v-list>
-          <v-list-tile v-for="(item, i) in item2" :key="i" @click="">
+          <v-list-tile v-for="(item, i) in item2" :key="i">
             <v-list-tile-title>{{ item.title }}</v-list-tile-title>
           </v-list-tile>
         </v-list>
@@ -37,6 +37,12 @@
 </template>
 
 <script>
+
+
+import Firebase from 'firebase'
+
+
+
 export default {
   data() {
     return {
